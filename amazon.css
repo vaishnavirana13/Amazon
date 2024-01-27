@@ -531,3 +531,530 @@ ul {
     margin: 10px;
     font-weight: 200;
 }
+.navbar {
+    margin: 0%;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+}
+.main:hover{
+   border: 2px solid white;
+    
+}
+.logo1{
+   display: flex;
+    background-size: contain;
+    justify-content: space-evenly;
+    background-image: url(/IMAGES/logoo.jfif.jpg);
+    height: 45px;
+    width: 100%;
+}
+/*.location :hover{ 
+    box-sizing: content-box;
+    border: 2px solid white;
+    
+}*/
+
+.hello{
+    font-size: 12px;
+    opacity: 0.7; 
+  
+    
+}
+.address{ 
+    
+    padding-top: 2px;
+    color: #cccccc;
+    text-decoration: none;
+    font-weight: 700;
+}
+/*.address:hover{
+    border: 1px solid white;
+}*/
+.border {
+  
+    border: 2px solid transparent;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 7px;
+    border-width: 1px;
+    border-radius: 2.5px;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+.account{
+    display: flex;
+}
+.nav1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.nav2{
+  padding-right: 4px;
+}
+
+/*box2*/
+.addicon {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add2 {
+    font-size: 1rem;
+    margin-left: 10px;
+
+}
+
+.loc {
+    margin-left: 15px;
+}
+
+.addicon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*box3*/
+.navsearch {
+    display: flex;
+
+    width: 850px;
+    height: 40px;
+
+    justify-content: space-evenly;
+
+}
+
+.navsearch:hover { border-radius: 5px;
+    border: 2px solid orange;
+}
+
+.select {
+    color: black;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    padding: 5px;
+
+}
+
+.searchinput {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #e0ac5e;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+
+/*box4*/
+span {
+    font-size: 0.85rem;
+
+}
+
+.nav2 {
+    font-size: 0.99rem;
+    font-weight: 700px;
+}
+
+/*box6*/
+.cart i {
+    font-size: 25px;
+    height: 30px;
+
+}
+
+.cart {
+    font: 0.70rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.panel2 a {
+    
+    text-decoration: none;
+    color: #e2e7e6;
+    display: inline;
+    font-size: 0.9rem;
+   margin: 20px;
+   font-display: 25px;
+
+
+}
+
+.para{
+  
+    padding-left: 10px;
+    padding-right: 10px; 
+   /*  padding-top: 2px; 
+     padding-left: 2px;*/
+}
+
+.para a:hover{
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 0.1px solid white;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-width: 1px;
+    border-radius: 2.5px;
+
+}
+
+
+.deals {
+    font-size: 1rem;
+    font-weight: 750;
+}
+
+.herosec {
+    background-image: url(/IMAGES/ihero.jfif);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.heromsg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.90rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+
+.heromsg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/*shopsec*/
+.shopsec {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/*box-electronics*/
+
+.box {
+
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin: 15px;
+
+}
+
+.boximg1 {
+
+    background-image: url(/IMAGES/box1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 0;
+    padding-right: 15px;
+}
+
+.boxcontent {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+.buynow {
+    color: #007185;
+    text-decoration: none;
+}
+
+/*box-home-kitchen*/
+
+
+.boximg2 {
+
+    background-image: url(/IMAGES/home.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+
+.boxcontent1 {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+/*school*/
+
+
+.boximg3 {
+
+    background-image: url(/IMAGES/school.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.boxcontent2 {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+/*gym*/
+.boximg4 {
+
+    background-image: url(/IMAGES/gym.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.boxcontent3 {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+/*shopsec2*/
+.shopsec2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap;
+
+}
+
+.boximg5 {
+    background-image: url(/IMAGES/toys.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+
+.boxcontent4 {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+.boximg6 {
+    background-image: url(/IMAGES/health.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+
+.boxcontent5 {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+.boximg7 {
+
+    background-image: url(/IMAGES/fashion.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+
+.boxcontent6 {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+.boximg8 {
+
+    background-image: url(/IMAGES/refreash.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 15px;
+}
+
+.boxcontent7 {
+    margin-left: 0.80rem;
+    margin-right: 0.80rem;
+}
+
+/*footer*/
+.recom {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.sign {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid rgb(218, 161, 15);
+    border-radius: 3px;
+    background-color: #e2b539;
+    color: black;
+    text-decoration: none;
+    font-weight: 530;
+    display: inline-block;
+    width: 15rem;
+    height: 2rem;
+}
+
+.start {
+
+    text-align: center;
+    font-size: 0.80rem;
+    margin: 10px;
+}
+
+.start a {
+    color: #007185;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.footpanel {
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    display: flex;
+
+
+}
+
+.footpanel2 {
+    background-color: #223245;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+
+    height: 300px;
+    list-style-type: none;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-right: 10px;
+
+
+
+}
+
+.list a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 0.85rem;
+    display: block;
+    margin-top: 10px;
+
+
+}
+
+.list a:hover {
+    border-bottom: 0.2px solid #fff;
+}
+
+.footerdiv {
+    color: #fff;
+    font-weight: 1000px;
+}
+
+.footpanel3 {
+    background-color: #202e40;
+    height: 80px;
+    color: #DDDDDD;
+    border-top: 0.1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoo {
+
+    background-size: cover;
+    height: 70px;
+    width: 100px;
+
+}
+
+.a2 {
+    color: #DDDDDD;
+    text-decoration: none;
+    font-size: 0.75rem;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.copyright {
+    font-size: 0.85rem;
+    margin: 10px;
+    font-weight: 200;
+}
